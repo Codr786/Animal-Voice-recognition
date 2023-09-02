@@ -1,19 +1,24 @@
 h1{
     color:chocolate;
+    font-family:monospace;
 }
 p{
     color:darkslategrey;
     font-size: 22px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
 }
 #start{
     color: coral;
-    background-color: cornsilk;
+    background-color: #E2C799;
     border-color: cornsilk;
     height: 7%;
     width: 13%;
     font-size: large;
     border-radius: 30px;
+    margin-top: 30px;
+    font-weight: bold;
 }
 h2{
     color: black;
@@ -26,6 +31,13 @@ h2{
 .footer{
     background-color:lightgrey;
     text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    line-height: 3;
+    text-shadow: gainsboro;
+
 }
 body{
     border-color: slategray;
